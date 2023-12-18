@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/NewProjefaviconct.png"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/utilities.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Projects - Kevin</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <!-- <section class="py-1 navigation proj-header">
+      <div class="navbar flex container">
+        <a href="index.html">
+          <h2>Portfolio</h2>
+        </a>
+        <div>
+          <ul class="flex">
+            <a href="index.html#services">
+              <li>Services</li>
+            </a>
+            <a href="index.html#projects">
+              <li>Projects</li>
+            </a>
+            <a href="mailto:kevdvlpr@gmail.com" class="btn-secondary"
+              >Contact</a
+            >
+          </ul>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="projects py-1">
+      <!-- header start -->
+      <div class="navbar flex container pb-5">
+        <a href="index.html">
+          <h2>Portfolio</h2>
+        </a>
+        <div>
+          <ul class="flex">
+            <a href="index.html#services">
+              <li>Services</li>
+            </a>
+            <a href="index.html#projects">
+              <li>Projects</li>
+            </a>
+            <a href="mailto:kevdvlpr@gmail.com" class="btn-secondary"
+              >Contact</a
+            >
+          </ul>
+        </div>
+      </div>
+      <!-- header end -->
+
+      <div class="container text-center py-3">
+        <h1 class="h2">Projects</h1>
+        <p class="pt-1">Professionally built websites for amazing clients.</p>
+        <!-- Tabs for Elementor and Oxygen -->
+        <div class="tab-container my-3">
+          <button class="tab-btn" onclick="showTab('elementor')">
+            <img src="assets/images/elementor.png" class="toggle-icon" />
+            Elementor
+          </button>
+          <button class="tab-btn" onclick="showTab('oxygen')">
+            <img
+              src="assets/images/oxygen logo.png"
+              class="toggle-icon"
+            />Oxygen
+          </button>
+        </div>
+        <!-- Elementor Projects -->
+        <div class="grid-3 elementor-tab">
+          <!-- Add your Elementor project divs here -->
+          <div class="col-4a"></div>
+          <div class="col-4b"></div>
+          <div class="col-4c"></div>
+          <div class="col-3a"></div>
+          <div class="col-3b"></div>
+          <div class="col-3c"></div>
+          <div class="col-3"></div>
+          <div class="col-4"></div>
+          <div class="col-5"></div>
+          <div class="col-6"></div>
+          <div class="col-7"></div>
+          <div class="col-8"></div>
+          <div class="col-9"></div>
+          <div class="col-13"></div>
+          <div class="col-15"></div>
+          <div class="col-16"></div>
+          <div class="col-17"></div>
+          <!-- Add more Elementor project divs as needed -->
+        </div>
+
+        <!-- Oxygen Projects -->
+        <div class="grid-3 oxygen-tab" style="display: none">
+          <!-- Add your Oxygen project divs here -->
+          <div class="col-recent"></div>
+          <div class="col-2"></div>
+          <div class="col-10"></div>
+          <div class="col-11"></div>
+          <div class="col-14"></div>
+
+          <!-- Add more Oxygen project divs as needed -->
+        </div>
+
+        <div class="btn_div">
+          <a href="mailto:kevdvlpr@gmail.com" class="btn-secondary"
+            >Work With Me</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer-sect py-1">
+      <!-- <div class="floating_icon">
+        <a href="#"> <i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+      </div> -->
+      <div class="container flex footer">
+        <div>
+          <p>© 2023 Kevin, All rights reserved.</p>
+        </div>
+        <div>
+          <ul class="flex">
+            <li>
+              <a
+                href="https://join.skype.com/invite/jAHdOrvztILL"
+                target="_blank"
+                ><i class="fa fa-skype" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/kevdvlpr/" target="_blank"
+                ><i class="fa fa-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/kevram/" target="_blank"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "130561823464849");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v17.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
