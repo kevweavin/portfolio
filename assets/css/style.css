@@ -141,6 +141,18 @@ section.py-1.navigation {
     color: #fff;
 }
 
+.col-masstort {
+    background: url('../images/masstort.png') no-repeat top center / cover;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+.col-masstort:hover {
+    background-position: center bottom;
+    -webkit-transition: ease-in-out 4s !important;
+    transition: ease-in-out 4s !important;
+}
+
 .col-wintint {
     background: url('../images/blackoutwindowstint.png') no-repeat top center / cover;
     min-height: 400px;
@@ -646,6 +658,78 @@ img.toggle-icon {
 }
 
 .col-17:hover {
+    background-position: center bottom;
+    -webkit-transition: ease-in-out 4s !important;
+    transition: ease-in-out 4s !important;
+}
+
+.col-rtm {
+    background: url('../images/revtech.png') no-repeat top center / cover;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+.col-rtm:hover {
+    background-position: center bottom;
+    -webkit-transition: ease-in-out 4s !important;
+    transition: ease-in-out 4s !important;
+}
+
+.col-bpt {
+    background: url('../images/businesspropertytax.png') no-repeat top center / cover;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+.col-bpt:hover {
+    background-position: center bottom;
+    -webkit-transition: ease-in-out 4s !important;
+    transition: ease-in-out 4s !important;
+}
+
+.col-ppd {
+    background: url('../images/ppd.png') no-repeat top center / cover;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+.col-ppd:hover {
+    background-position: center bottom;
+    -webkit-transition: ease-in-out 4s !important;
+    transition: ease-in-out 4s !important;
+}
+
+.col-df {
+    background: url('../images/dollarfox.png') no-repeat top center / cover;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+.col-df:hover {
+    background-position: center bottom;
+    -webkit-transition: ease-in-out 4s !important;
+    transition: ease-in-out 4s !important;
+}
+
+.col-ifc {
+    background: url('../images/illinoisfence.png') no-repeat top center / cover;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+.col-ifc:hover {
+    background-position: center bottom;
+    -webkit-transition: ease-in-out 4s !important;
+    transition: ease-in-out 4s !important;
+}
+
+.col-nswe {
+    background: url('../images/nsweglobal.png') no-repeat top center / cover;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+.col-nswe:hover {
     background-position: center bottom;
     -webkit-transition: ease-in-out 4s !important;
     transition: ease-in-out 4s !important;
