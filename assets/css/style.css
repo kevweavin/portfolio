@@ -739,7 +739,7 @@ img.toggle-icon {
 
 @media only screen and (max-width: 768px) {
     .container {
-        padding: 0 15px !important;
+        padding: 0 20px !important;
     }
 
     .hero {
@@ -762,6 +762,14 @@ img.toggle-icon {
         margin-top: 10px;
     }
 
+    body>section.hero>div>div:nth-child(1) {
+        padding-bottom: 0;
+    }
+
+    .projects .flex ul {
+        margin-top: 10px;
+    }
+
     .navbar {
         display: grid !important;
         grid-template-columns: repeat(1, 1fr);
@@ -769,8 +777,25 @@ img.toggle-icon {
         width: 100% !important;
     }
 
+    .hero {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .hero .lead {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .hero .container h1 {
         padding: 14px 0;
+    }
+
+    .container.text-center.py-3 {
+        padding-top: 4rem !important;
     }
 
     .profile-img {
