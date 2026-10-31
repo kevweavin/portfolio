@@ -26,7 +26,11 @@
 }
 
 .btn-primary {
+<<<<<<< HEAD
     padding: 12px 24px 12px;
+=======
+    padding: 12px 24px;
+>>>>>>> 29ff0b122e0248f6678e5c3b7fa8353c45a7e4ee
     color: #fff;
     background-color: #002045;
     border-radius: 25px;
@@ -34,6 +38,7 @@
 }
 
 .btn-secondary {
+<<<<<<< HEAD
     padding: 12px 24px 12px;
     color: #002045;
     background-color: #DFB841;
@@ -43,6 +48,18 @@
 
 .btn-primary:hover {
     background-color: #DFB841;
+=======
+    padding: 12px 24px;
+    color: #002045;
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+    transition: ease-in-out 0.3s;
+
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+>>>>>>> 29ff0b122e0248f6678e5c3b7fa8353c45a7e4ee
     transform: scale(1.1) !important;
 }
 
@@ -246,7 +263,11 @@
 }
 
 .card {
+<<<<<<< HEAD
     padding: 25px;
+=======
+    padding: 30px;
+>>>>>>> 29ff0b122e0248f6678e5c3b7fa8353c45a7e4ee
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border-radius: 10px;
     margin: 15px;
@@ -258,11 +279,19 @@
     .w-25 {
         width: 100% !important;
     }
+<<<<<<< HEAD
     
     .w-50 {
         width: 100% !important;
     }
     
+=======
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+>>>>>>> 29ff0b122e0248f6678e5c3b7fa8353c45a7e4ee
     .w-75 {
         width: 100% !important;
     }
